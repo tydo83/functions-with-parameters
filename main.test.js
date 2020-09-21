@@ -4,10 +4,27 @@ Your code goes below.
 
 */
 
+let x = 3;
+let y = 10;
+let z = 5;
+let name = 'Timothy';
+let greeting = 'HEY';
 
-
-
-
+function multiply(n) {
+x = x * n;
+}
+function modYBy(n) {
+y = y % n;
+}
+function opposite(n) {
+z = -n;
+}
+function makeFullName(n) {
+name = name + ' ' + n;
+}
+function yellAt(n) {
+greeting = greeting + ', ' + n +'!';
+}
 
 /*********************************************************************************************************************
 
